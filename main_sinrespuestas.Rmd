@@ -1,6 +1,6 @@
 ---
 title: "PEP2 - Estadística Computacional"
-author: Manuel Villalobos Cid
+author:
 bibliography: references.bib  
 output:
   html_document:
@@ -100,3 +100,4 @@ Utilizando el conjunto de datos `ToothGrowth`, realice el análisis estadístico
 
 
 ## Referencias
+
