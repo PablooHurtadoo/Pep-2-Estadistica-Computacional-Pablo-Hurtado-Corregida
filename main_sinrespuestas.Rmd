@@ -1,0 +1,102 @@
+---
+title: "PEP2 - Estadística Computacional"
+author: Manuel Villalobos Cid
+bibliography: references.bib  
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    toc_depth: 2
+    theme: flatly
+    df_print: kable
+    highlight: zenburn
+  html_notebook: default
+  pdf_document: default
+---
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+
+# 1. Instrucciones
+
+Este documento contiene las instrucciones y enunciados asociados a la **Prueba Especial Programada 2** (PEP2) del curso de 
+**Estadística Computacional** modalidad **diurna**. Con respecto a ello:
+
+- La prueba tiene un total de 60 puntos, lo que sumado al puntaje base permitirá calcular directamente su nota final sumando un 
+máximo de 70 puntos.
+- Sea ordenado y recuerde aplicar el método estadístico, incluyendo el aspecto gráfico.
+- Se dispone de todo el bloque horario para realizar la evaluación. Esta deberá ser desarrollada en R.
+- Las respuestas escritas empleando RMarkdown deberán ser cargada en Moodle en la sección habilitada para este fin.
+- Puede usar apuntes y material disponible en Moodle como apoyo.
+- Cualquier sospecha de falta ética será castigada directamente con nota 1.0 en la evaluación. Uso de ChatGTP o equivalente implica nota 1.0.
+
+# 2. Preguntas
+
+
+<!-- %================== -->
+<!-- % Pregunta 1 -->
+<!-- %================== -->
+
+## Pregunta 1 (20 puntos)
+
+En el estudio *Análisis de variables asociadas al rendimiento académico en cursos universitarios virtuales*, se analizó el resultado final de estudiantes considerando variables sociodemográficas, entre ellas el **rango de edad**, con el fin de identificar factores asociados al éxito o fracaso académico en modalidad virtual [@GilVera2023].
+
+A partir de una muestra de estudiantes del mismo contexto institucional, se obtuvo la siguiente información sobre **rango etario** y **resultado final del curso**:
+
+| Rango de edad | Aprobó | Reprobó | Total |
+|---------------|--------|---------|-------|
+| 18 a 24 años  | 92     | 28      | 120   |
+| 25 a 34 años  | 78     | 42      | 120   |
+| 35 años o más | 43     | 17      | 60    |
+| **Total**     | 213    | 87      | 300   |
+
+### Enunciado
+
+Con base en los datos entregados sobre **rango de edad** y **resultado final del curso**, realice el análisis estadístico que considere pertinente para evaluar si existe relación entre ambas variables, utilizando un nivel de significancia del 5%. Presente su planteamiento de hipótesis, los cálculos necesarios y la conclusión final debidamente justificada.
+
+
+
+<!-- %================== -->
+<!-- % Pregunta 2 -->
+<!-- %================== -->
+
+## Pregunta 2 (20 puntos)
+
+El conjunto de datos [`mtcars`](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars){target="_blank"}, disponible por defecto en R, contiene información de distintos modelos de automóviles, incluyendo variables relacionadas con el rendimiento del motor y el consumo de combustible.
+
+El interés es analizar qué factores se asocian con el **consumo de combustible** medido en millas por galón (`mpg`).
+
+### Enunciado
+
+Utilizando el conjunto de datos `mtcars`, realice el análisis estadístico que considere pertinente para modelar el consumo de combustible (`mpg`) a partir de otras variables del conjunto de datos. Presente el planteamiento del modelo, los cálculos realizados y la interpretación de los resultados obtenidos.
+
+
+
+<!-- %================== -->
+<!-- % Pregunta 3 -->
+<!-- %================== -->
+
+## Pregunta 3 - 20 puntos
+
+El conjunto de datos [`ToothGrowth`](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/ToothGrowth){target="_blank"}, disponible por defecto en R, contiene información sobre el crecimiento dental de cobayos sometidos a distintos suplementos y dosis de vitamina C.
+
+Se desea analizar si el tipo de suplemento influye en el crecimiento dental medido en la variable `len`.
+
+### Enunciado
+
+Utilizando el conjunto de datos `ToothGrowth`, realice el análisis estadístico que considere pertinente para evaluar si existen diferencias significativas en el crecimiento dental (`len`) entre los dos tipos de suplemento disponibles en el conjunto de datos. Presente claramente su planteamiento, los cálculos necesarios y la conclusión final.
+
+
+
+
+
+
+
+
+
+## Referencias
